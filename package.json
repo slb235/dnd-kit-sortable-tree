@@ -1,8 +1,8 @@
 {
-  "name": "dnd-kit-sortable-tree",
-  "version": "0.1.62",
+  "name": "ab-dnd-kit-sortable-tree",
+  "version": "0.1.64",
   "license": "MIT",
-  "homepage": "https://github.com/shaddix/dnd-kit-sortable-tree#readme",
+  "homepage": "https://github.com/slb235/dnd-kit-sortable-tree#readme",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
     "src",
     "Readme.MD"
   ],
-  "author": "Shaddix",
+  "author": "slb235",
   "types": "dist/index.d.ts",
   "keywords": [
     "tree",

@@ -63,7 +63,7 @@ export function getProjection<T>(
   depth = 0
   if((activeItem as any).type !== 'section') {
     const firstSectionIndex = newItems.findIndex((item) => (item as any).type === 'section')
-    if(overItemIndex > firstSectionIndex) {
+    if(firstSectionIndex !== -1 && overItemIndex > firstSectionIndex) {
       depth = 1
     }
   }
