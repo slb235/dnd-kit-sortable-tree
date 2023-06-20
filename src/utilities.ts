@@ -59,6 +59,15 @@ export function getProjection<T>(
     };
     previousItemOnDepth.isLast = false;
   }
+
+  depth = 0
+  if((activeItem as any).type !== 'section') {
+    const firstSectionIndex = newItems.findIndex((item) => (item as any).type === 'section')
+    if(overItemIndex > firstSectionIndex) {
+      depth = 1
+    }
+  }
+  
   return {
     depth,
     maxDepth,
